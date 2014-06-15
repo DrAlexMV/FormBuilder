@@ -1,4 +1,4 @@
-angular.module('FormBuilder', ['ui.bootstrap','ui.utils','ui.router','ngAnimate']);
+angular.module('FormBuilder', ['ui.bootstrap', 'ui.utils', 'ui.router', 'ngAnimate', 'FormBuilder.formInput']);
 
 angular.module('FormBuilder').config(function($stateProvider, $urlRouterProvider) {
 

@@ -28,12 +28,20 @@
 
   <!-- Main App JS -->
   <script src="app.js"></script>
+  <script src="form-input/FormBuilder.form-input.js"></script>
+  <script src="form-input/directive/formInput/formInput.js"></script>
   <!-- Add New Component JS Above -->
 
   <div>
     <div id="content" class="container">
       <div class="row">
         <div ui-view>
+            <form action="" name="MyForm" ng-init="newUser = {}">
+                <form-input icon="fa-user">
+                    <input class="form-control" type="text" ng-model="newUser.firstName" name="firstName" required/>
+                </form-input>
+                {{ newUser | json }}
+            </form>
         </div>
       </div>
     </div>
