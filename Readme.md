@@ -1,7 +1,11 @@
-#FormBuilder - Easier forms with AngularJS and BS3
+FormBuilder
+===========
+
+Ain't it annoying to make Bootstrap forms? Not anymore! FormBuilder hellps you stylize form elements using good ol' directives and BS3.
 
 ***
 
 ##Current Version: 0.0.0
 
-A work in progress, definately not quite ready for production.
+Not quite ready for production
+
