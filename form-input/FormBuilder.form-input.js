@@ -1,1 +1,1 @@
-angular.module('FormBuilder.formInput', ['ui.bootstrap','ui.utils','ui.router','ngAnimate']);
+angular.module('FormBuilder.formInput', []);
