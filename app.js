@@ -1,11 +1,4 @@
-angular.module('FormBuilder', ['ui.bootstrap', 'ui.utils', 'ui.router', 'ngAnimate', 'FormBuilder.formInput']);
-
-angular.module('FormBuilder').config(function($stateProvider, $urlRouterProvider) {
-
-    /* Add New States Above */
-    $urlRouterProvider.otherwise('/home');
-
-});
+angular.module('FormBuilder', ['ui.bootstrap', 'ui.utils', 'ui.router', 'ngAnimate', 'FormBuilder.formInput', 'FormBuilder.password']);
 
 angular.module('FormBuilder').run(function($rootScope) {
 

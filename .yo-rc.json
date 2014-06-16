@@ -22,6 +22,10 @@
       {
         "name": "FormBuilder.formInput",
         "file": "form-input/FormBuilder.form-input.js"
+      },
+      {
+        "name": "FormBuilder.password",
+        "file": "password/FormBuilder.password.js"
       }
     ]
   }
