@@ -1,6 +1,6 @@
 describe('strength', function() {
 
-  beforeEach(module('FormBuilder.password'));
+  beforeEach(module('formBuilder.password'));
 
   var scope,compile;
 

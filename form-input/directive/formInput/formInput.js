@@ -1,4 +1,4 @@
-angular.module('FormBuilder.formInput').directive('formInput', function() {
+angular.module('formBuilder.formInput').directive('formInput', function() {
 	return {
 		restrict: 'E',
 		replace: true,

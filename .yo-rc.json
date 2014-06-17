@@ -20,12 +20,12 @@
     },
     "modules": [
       {
-        "name": "FormBuilder.formInput",
-        "file": "form-input/FormBuilder.form-input.js"
+        "name": "formBuilder.formInput",
+        "file": "form-input/formBuilder.form-input.js"
       },
       {
-        "name": "FormBuilder.password",
-        "file": "password/FormBuilder.password.js"
+        "name": "formBuilder.password",
+        "file": "password/formBuilder.password.js"
       }
     ]
   }

@@ -1,1 +1,1 @@
-angular.module('FormBuilder.formInput', []);
+angular.module('formBuilder.formInput', []);

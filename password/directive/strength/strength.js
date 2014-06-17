@@ -1,4 +1,4 @@
-angular.module('FormBuilder.password').directive('strength', function (passwordStrength, $compile, $http, $templateCache) {
+angular.module('formBuilder.password').directive('strength', function (passwordStrength, $compile, $http, $templateCache) {
 	return {
 		restrict: 'A',
 		require: 'ngModel',

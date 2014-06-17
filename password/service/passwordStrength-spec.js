@@ -1,6 +1,6 @@
 describe('passwordStrength', function() {
 
-  beforeEach(module('FormBuilder.password'));
+  beforeEach(module('formBuilder.password'));
 
   it('should ...', inject(function(passwordStrength) {
 

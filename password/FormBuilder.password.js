@@ -1,2 +1,2 @@
-angular.module('FormBuilder.password', []);
+angular.module('formBuilder.password', []);
 

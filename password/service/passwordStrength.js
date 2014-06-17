@@ -1,4 +1,4 @@
-angular.module('FormBuilder.password').factory('passwordStrength', function () {
+angular.module('formBuilder.password').factory('passwordStrength', function () {
 	return  function (password) {
 		var analysis = zxcvbn(password);
 
@@ -6,6 +6,6 @@ angular.module('FormBuilder.password').factory('passwordStrength', function () {
 			score: function () {
 				return analysis.score;
 			}
-		}
-	}
+		};
+	};
 });

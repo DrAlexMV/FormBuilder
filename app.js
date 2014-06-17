@@ -1,6 +1,6 @@
-angular.module('FormBuilder', ['ui.bootstrap', 'ui.utils', 'ui.router', 'ngAnimate', 'FormBuilder.formInput', 'FormBuilder.password']);
+angular.module('formBuilder', ['ui.bootstrap', 'ui.utils', 'ui.router', 'ngAnimate', 'formBuilder.formInput', 'formBuilder.password']);
 
-angular.module('FormBuilder').run(function($rootScope) {
+angular.module('formBuilder').run(function($rootScope) {
 
     $rootScope.safeApply = function(fn) {
         var phase = $rootScope.$$phase;

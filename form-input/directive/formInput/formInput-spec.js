@@ -1,6 +1,6 @@
 describe('formInput', function() {
 
-  beforeEach(module('FormBuilder.formInput'));
+  beforeEach(module('formBuilder.formInput'));
 
   var scope,compile;
 
