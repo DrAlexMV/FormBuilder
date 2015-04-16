@@ -8,10 +8,11 @@ angular.module('formBuilder.formInput').directive('formInput', function() {
 		templateUrl: 'form-input/directive/formInput/formInput.html',
 		link: function(scope, element, attrs, formCtrl, transclude) {
 			transclude(function (clone) {
+				var input = clone.filter('input')[0];
 				scope = _.extend(scope, {
 					form: formCtrl,
 					icon: { class: attrs.icon },
-					name: clone[1].name
+					name: input ? input.name : ''
 				});
 				clone.addClass('form-control');
 				element.find('transclude').replaceWith(clone);
